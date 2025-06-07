@@ -44,7 +44,7 @@ pip install -r requirements.txt
 # Execute o notebook
 jupyter notebook
 
-'''
+```
 
-## Autora: Giovanna Prezia
+Autora: Giovanna Prezia
 Este projeto faz parte de uma série de projetos de portfólio mensais voltados para bioinformática com ciência de dados.

@@ -14,3 +14,32 @@ Este projeto demonstra como aplicar um pipeline de ciência de dados para prever
 - scikit-learn
 
 ## 📁 Estrutura
+rna-seq-classification-disease-python/
+├── 01_preprocessing.ipynb # Notebook com análise exploratória
+├── data/
+│ └── simulated_rnaseq_data.csv
+├── README.md
+├── requirements.txt
+
+
+## 📈 Resultados
+- Visualização por PCA
+- Top 10 genes mais relevantes por ANOVA
+- Base para modelagem futura
+
+## ▶️ Como rodar
+```bash
+# Clone o repositório
+git clone https://github.com/GiovannaPrezia/rna-seq-classification-disease-python.git
+cd rna-seq-classification-disease-python
+
+# Crie um ambiente virtual (opcional)
+python -m venv .venv
+source .venv/bin/activate  # Linux/Mac
+.venv\\Scripts\\activate   # Windows
+
+# Instale as dependências
+pip install -r requirements.txt
+
+# Execute o notebook
+jupyter notebook
